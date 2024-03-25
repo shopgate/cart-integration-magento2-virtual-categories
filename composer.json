@@ -1,0 +1,20 @@
+{
+  "name": "shopgate/cart-integration-magento2-virtual-categories",
+  "description": "Shopgate virtual category module for Magento 2. Exports virtual categories created with the Smile_ElasticsuiteVirtualCategory module.",
+  "license": "Apache-2.0",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=7.4",
+    "shopgate/cart-integration-magento2-export": "~2.9.30",
+    "smile/elasticsuite": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Shopgate\\VirtualCategory\\": "src/"
+    }
+  }
+}
