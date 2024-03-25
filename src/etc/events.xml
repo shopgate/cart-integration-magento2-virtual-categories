@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="sg_export_set_category_paths">
+        <observer name="sg_export_set_virtual_category_paths" instance="Shopgate\VirtualCategory\Observer\AddCategoriesToProductExport"/>
+    </event>
+</config>
