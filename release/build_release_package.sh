@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ZIP_FOLDER="shopgate-virutalcategory-${TAG_NAME}"
+ZIP_FOLDER="shopgate-virtualcategory-${TAG_NAME}"
 ZIP_FILE="${ZIP_FOLDER}.zip"
 
 # Remove mentioning the src/ structure when packaging
