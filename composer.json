@@ -10,7 +10,7 @@
   },
   "require": {
     "php": ">=7.4",
-    "shopgate/cart-integration-magento2-export": "~2.9.30",
+    "shopgate/cart-integration-magento2-export": "~2.9.30-beta.1",
     "smile/elasticsuite": "*"
   },
   "autoload": {
