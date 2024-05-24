@@ -3,7 +3,7 @@
   "description": "Shopgate virtual category module for Magento 2. Exports virtual categories created with the Smile_ElasticsuiteVirtualCategory module.",
   "license": "Apache-2.0",
   "type": "magento2-module",
-  "version": "1.0.0-beta2",
+  "version": "1.0.0-beta3",
   "scripts": {
     "check": "php-cs-fixer fix --diff --dry-run --verbose .",
     "check&fix": "php-cs-fixer fix --diff --verbose ."
