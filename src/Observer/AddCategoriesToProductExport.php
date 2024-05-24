@@ -124,8 +124,10 @@ class AddCategoriesToProductExport implements ObserverInterface
                 $productCategoryIds[$virtualCategory->getId()][$product->getId()] = $product->getPosition() ?? $indexPosition++;
             }
 
-            $cacheData = $this->serializer->serialize($productCategoryIds[$virtualCategory->getId()]);
-            $this->cache->save($cacheData, $cacheKey, $virtualCategory->getCacheTags());
+            if (isset($productCategoryIds[$virtualCategory->getId()])) {
+                $cacheData = $this->serializer->serialize($productCategoryIds[$virtualCategory->getId()]);
+                $this->cache->save($cacheData, $cacheKey, $virtualCategory->getCacheTags());
+            }
         }
 
         $result = [];

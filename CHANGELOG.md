@@ -7,3 +7,5 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## [Unreleased]
 ### Added
 - export of virtual categories for product export
+### Fixed
+- warnings during product export
